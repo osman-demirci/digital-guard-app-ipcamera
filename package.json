@@ -1,0 +1,44 @@
+{
+  "name": "digitalguardapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodejs ./bin/start"
+  },
+  "dependencies": {
+    "body-parser": "latest",
+    "bower": "latest",
+    "connect-flash": "latest",
+    "cookie-parser": "latest",
+    "dateformat": "latest",
+    "debug": "^4.1.0",
+    "express": "latest",
+    "express-flash-2": "latest",
+    "express-form": "latest",
+    "express-handlebars": "latest",
+    "express-session": "latest",
+    "express-validator": "latest",
+    "face-recognition": "latest",
+    "handlebars-intl": "latest",
+    "hbs": "latest",
+    "i18n": "latest",
+    "mongodb": "latest",
+    "morgan": "latest",
+    "node-schedule": "latest",
+    "nodemailer": "latest",
+    "opencv4nodejs": "latest",
+    "plyr": "latest",
+    "serve-favicon": "latest",
+    "socket.io": "latest",
+    "stream-buffers": "^3.0.2",
+    "validator": "latest"
+  },
+  "devDependencies": {
+    "handlebars-helper-i18n": "latest"
+  },
+  "main": "app.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

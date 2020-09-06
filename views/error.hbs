@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<script src="/bower_components/socket.io-client/dist/socket.io.slim.js"></script>
+<script src="/javascripts/views/index.js"></script>
+
+<div class="content-wrapper">
+	<div class="container-fluid">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item active">{{texts "menu.error.home"}}</li>
+			<li class="breadcrumb-item active">{{texts "menu.error.detail"}}</li>
+		</ol>
+
+		<div class="row">
+			<div class="col">
+				<div class="card">
+					<div class="card-header">
+						<i class="fa fa-exclamation-triangle"></i> {{texts "panel.header.errorDetail"}}
+					</div>
+					<div class="card-body">
+						<h1 class="fc-red">{{message}}</h1>
+						<h2>{{error.status}}</h2>
+						<pre>{{error.stack}}</pre>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</html>

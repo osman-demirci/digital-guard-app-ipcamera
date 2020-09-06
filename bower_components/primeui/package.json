@@ -1,0 +1,31 @@
+{
+  "name": "primeui",
+  "version": "v4.1.15",
+  "description": "'PrimeUI is a collection of rich javascript widgets and web components based on jQuery UI API'",
+  "main": "primeui.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/primefaces/primeui-distribution.git"
+  },
+  "keywords": [
+    "jquery-plugin",
+    "web-components",
+    "ecosystem:jquery",
+    "dialog",
+    "datatable",
+    "grid",
+    "tab",
+    "accordion",
+    "tree",
+    "treetable"
+  ],
+  "author": "PrimeTek",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/primefaces/primeui-distribution/issues"
+  },
+  "homepage": "https://github.com/primefaces/primeui-distribution#readme"
+}

@@ -1,0 +1,131 @@
+{
+	"app": {
+		"name": "Digital Guard App",
+		"title": "Digital Guard Web App",
+		"topbarHeader": "Digital Guard Web App - İzleme Ekranı"
+	},
+	"menu": {
+		"home": "Web App",
+		"webMonitor": "Web Monitör",
+		"staff": {
+			"home": "Personel",
+			"registerStaff": "Personel Kaydı"
+		},
+		"logout": "Çıkış",
+		"error": {
+			"404": "404",
+			"home": "Hata",
+			"detail": "Hata Detayı"
+		},
+		"registerStaff": "menu.registerStaff",
+		"dataLog": {
+			"home": "Veri Kayıtları",
+			"history": "Geçmiş Veri Kayıtları"
+		},
+		"videoPlayer": "Video Player"
+	},
+	"button": {
+		"label": {
+			"cancel": "Vazgeç",
+			"save": "Kaydet",
+			"update": "Güncelle",
+			"delete": "Sil",
+			"deleteAll": "Tümünü Sil",
+			"approve": "Onayla",
+			"select": "Seç",
+			"logout": "Çıkış",
+			"exit": "Çıkış",
+			"add": "Ekle",
+			"edit": "Düzenle"
+		}
+	},
+	"panel": {
+		"header": {
+			"numberOfPIRAction": "PIR Hareket Sayısı",
+			"tempValue": "Sıcaklık Değeri",
+			"humValue": "Nem Değeri",
+			"cameraScreen": "Kamera Ekranı",
+			"detectedFaces": "Bulunan Yüzler",
+			"errorDetail": "Hata Detayı",
+			"crud": "Kaydet / Güncelle / Sil",
+			"detectedFaceLog": "Tespit Edilmiş Yüzler",
+			"predictionResult": "Tahminleme Sonucu",
+			"staffFacedImages": "Personelin Tespit Edilen Yüzleri",
+			"videoPlayer": "panel.header.videoPlayer"
+		},
+		"label": {
+			"action": "Aksiyon",
+			"error": "Hata !!!",
+			"warn": "Uyarı !!!",
+			"info": "Bilgi !!!",
+			"required": "Zorunlu !!!"
+		}
+	},
+	"message": {
+		"error": {
+			"validator": {
+				"email": "Geçersiz e-mail.",
+				"required": "Zorunlu alan(lar) boş geçilemez."
+			},
+			"common": {
+				"fail": "Başarısız"
+			}
+		},
+		"warn": {
+			"common": {
+				"recordNotFound": "Kayıt bulunamadı"
+			}
+		},
+		"info": {
+			"logout": {
+				"approve": "Bağlantıyı kesmek istediğinizden emin misiniz ?",
+				"approveDetail": "Bağlantıyı kesmek için 'Çıkış' butonunu kullanınız."
+			},
+			"common": {
+				"succeessful": "Başarılı",
+				"successful": "message.info.common.successful"
+			}
+		}
+	},
+	"entity": {
+		"staff": {
+			"email": "E-mail",
+			"telephoneNum": "Gsm",
+			"name": "Ad",
+			"surname": "Soyad",
+			"address": "Adres",
+			"province": "Il",
+			"district": "Ilçe",
+			"detectedFacedImages": "Tespit Edilen Yüzler"
+		},
+		"common": {
+			"detectedFacedImage": "Tespit Edilen Yüz",
+			"detectedStaff": "Tespit Edilen Şahıs",
+			"recordDate": "Kayıt Tarihi"
+		}
+	},
+	"form": {
+		"common": {
+			"validation": {
+				"required": "Bu alan zorunludur."
+			}
+		},
+		"component": {
+			"label": {
+				"selectOne": "Seçiniz"
+			}
+		}
+	},
+	"guard": {
+		"guestStaff": "Misafir Personel",
+		"unauthStaff": "Yetkisiz Kullanıcı",
+		"waitForFaceDetection": "Bekliyor",
+		"unauthStaffNotif": "Yetkisiz Kullanıcı Bildirimi",
+		"unauthStaffNotifAttachs": "Yetkisiz Kullanıcı Bildirim Ekleri"
+	},
+	"copyright": "Digital Guard Web App 2015-2017",
+	"error": {
+		"404": "error.404",
+		"home": "error.home"
+	}
+}

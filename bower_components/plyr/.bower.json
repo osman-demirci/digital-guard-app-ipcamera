@@ -1,0 +1,14 @@
+{
+  "name": "plyr",
+  "homepage": "https://github.com/selz/plyr",
+  "version": "3.6.2",
+  "_release": "3.6.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.6.2",
+    "commit": "e2097884f7686cca4455c7e72b8df3f0f1c5dd6d"
+  },
+  "_source": "https://github.com/selz/plyr.git",
+  "_target": "^3.6.2",
+  "_originalSource": "plyr"
+}

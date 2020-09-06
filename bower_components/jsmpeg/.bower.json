@@ -1,0 +1,14 @@
+{
+  "name": "jsmpeg",
+  "homepage": "https://github.com/julienusson/jsmpeg",
+  "_release": "f913905656",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "f913905656057b42693386e3a7ce8c2a14d484f6"
+  },
+  "_source": "https://github.com/julienusson/jsmpeg.git",
+  "_target": "*",
+  "_originalSource": "julienusson/jsmpeg",
+  "_direct": true
+}

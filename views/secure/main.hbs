@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<div class="content-wrapper">
+	<div class="container-fluid">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item active">{{texts "menu.home"}}</li>
+			<li class="breadcrumb-item active">{{texts "menu.webMonitor"}}</li>
+		</ol>
+
+		<!--  
+		<div class="row">
+			<div class="col-xl-4 mb-4">
+				<div class="card">
+					<div class="card-header">
+						<i class="fa fa-universal-access"></i> {{texts "panel.header.numberOfPIRAction"}}
+					</div>
+					<div class="card-body">
+						<div class="web-monitor-latest-sensor-data text-center">
+							<i class="fa fa-universal-access fc-red" aria-hidden="true"></i><span id="latestPirData" style="margin-left: 10px;">0</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xl-4 mb-4">
+				<div class="card">
+					<div class="card-header">
+						<i class="fa fa-thermometer-half"></i> {{texts "panel.header.tempValue"}} (&#8451;)
+					</div>
+					<div class="card-body">
+						<div class="web-monitor-latest-sensor-data text-center">
+							<i class="fa fa-thermometer-full fc-orange" aria-hidden="true"></i><span id="latestTempData" style="margin-left: 10px;">-</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xl-4 mb-4">
+				<div class="card">
+					<div class="card-header">
+						<i class="fa fa-tint"></i> {{texts "panel.header.humValue"}} (%)
+					</div>
+					<div class="card-body">
+						<div class="web-monitor-latest-sensor-data text-center">
+							<i class="fa fa-thermometer-full fc-hardblue" aria-hidden="true"></i><span id="latestHumData" style="margin-left: 10px;">-</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		-->
+
+		<div class="row">
+			<div class="col-xl-6 mb-6">
+				<div class="card">
+					<div class="card-header">
+						<i class="fa fa-video-camera"></i> {{texts "panel.header.cameraScreen"}}
+					</div>
+					<div class="card-body">
+						<canvas id="liveVideoCanvas" width="1280" height="720" style="display: block; width: 100%; height: 520px; background: black;"></canvas>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xl-6 mb-6">
+				<div class="card">
+					<div class="card-header">
+						<i class="fa fa-cogs"></i> {{texts "panel.header.detectedFaces"}}
+					</div>
+					<div class="card-body">
+						<div class="row">
+							<div class="col">
+								<canvas id="detectedFaceCanvas" width="1280" height="720" style="display: block; width: 100%; height: 470px; background: black;"></canvas>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<div id="predictionResultBox" class="margin-top-10 text-center fs-46 fw-bold" style="height: 40px; line-height: 40px; vertical-align: middle;">
+									<i class="fa fa-user-secret"></i>-<label class="fc-orange">{{texts "guard.waitForFaceDetection"}}</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="margin-top-20"></div>
+	</div>
+</div>
+
+<script src="/bower_components/socket.io-client/dist/socket.io.slim.js" type="text/javascript"></script>
+<script src="/public/javascripts/views/main.js" type="text/javascript"></script>
+
+</html>

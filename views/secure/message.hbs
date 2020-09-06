@@ -1,0 +1,34 @@
+<div class="row">
+	<div class="col">
+		<div id="errorMessages" style="margin-top: 10px;">
+			{{# if header.messages.error}}
+			<div class="alert alert-danger" role="alert">
+				<h4 class="alert-heading">{{texts "panel.label.error"}}</h4>
+				{{#each header.messages.error}}
+				<p class="mb-0">{{this}}</p>
+				{{/each}}
+			</div>
+			{{/if}}
+		</div>
+		<div id="warnMessages" style="margin-top: 10px;">
+			{{# if header.messages.warn}}
+			<div class="alert alert-warning" role="alert">
+				<h4 class="alert-heading">{{texts "panel.label.warn"}}</h4>
+				{{#each header.messages.warn}}
+				<p class="mb-0">{{this}}</p>
+				{{/each}}
+			</div>
+			{{/if}}
+		</div>
+		<div id="infoMessages" style="margin-top: 10px;">
+			{{# if header.messages.info}}
+			<div class="alert alert-info" role="alert">
+				<h4 class="alert-heading">{{texts "panel.label.info"}}</h4>
+				{{#each header.messages.info}}
+				<p class="mb-0">{{this}}</p>
+				{{/each}}
+			</div>
+			{{/if}}
+		</div>
+	</div>
+</div>
